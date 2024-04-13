@@ -1,0 +1,13 @@
+.section-padding {
+    padding: 100px 0;
+  }
+  @media (max-width: 991px) {
+    .section-padding {
+      padding: 70px 0;
+    }
+  }
+  @media (max-width: 767px) {
+    .section-padding {
+      padding: 60px 0;
+    }
+  }

@@ -1,0 +1,214 @@
+.wpo-site-footer {
+    background:rgba(232, 232, 232, 0.69);
+    position: relative;
+    font-size: 15px;
+    overflow: hidden;
+  }
+  
+  .wpo-site-footer ul {
+    list-style: none;
+  }
+  
+  .wpo-site-footer p {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .wpo-site-footer li {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .wpo-site-footer .container {
+    position: relative;
+  }
+  
+  .wpo-site-footer .wpo-upper-footer {
+    padding: 90px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .wpo-site-footer .wpo-upper-footer {
+      padding: 60px 0 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .wpo-site-footer .wpo-upper-footer {
+      padding: 60px 0 0;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .wpo-site-footer .wpo-upper-footer .col {
+      min-height: 235px;
+      margin-bottom: 70px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .wpo-site-footer .wpo-upper-footer .col {
+      min-height: auto;
+      margin-bottom: 60px;
+    }
+  }
+  
+  .wpo-site-footer .widget-title {
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .wpo-site-footer .widget-title {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .wpo-site-footer .widget-title h3 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    margin: 0;
+    /* text-transform: uppercase; */
+    position: relative;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 45px;
+  }
+  
+  @media (max-width: 991px) {
+    .wpo-site-footer .widget-title h3 {
+      font-size: 20px;
+      font-size: 1.25rem;
+    }
+  }
+  
+  .wpo-site-footer .about-widget .logo {
+    max-width: 180px;
+  }
+  
+  .wpo-site-footer .about-widget p {
+    margin-bottom: 0.8em;
+    line-height: 1.9em;
+  }
+  
+  .wpo-site-footer .about-widget p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .wpo-site-footer .about-widget ul {
+    overflow: hidden;
+    padding-top: 10px;
+  }
+  
+  .wpo-site-footer .about-widget ul li {
+    font-size: 22px;
+    float: left;
+  }
+  
+  .wpo-site-footer .about-widget ul li a {
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  
+  .wpo-site-footer .about-widget ul li a:hover {
+    color: #303443;
+    background: #fff;
+  }
+  
+  .wpo-site-footer .about-widget ul li + li {
+    margin-left: 25px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .wpo-site-footer .wpo-service-link-widget {
+      padding-left: 70px;
+    }
+  }
+  
+  .wpo-site-footer .link-widget {
+    overflow: hidden;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .wpo-site-footer .link-widget {
+      padding-left: 75px;
+    }
+    .wpo-site-footer .link-widget.s1 {
+      padding-left: 95px;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .wpo-site-footer .link-widget {
+      padding-left: 20px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .wpo-site-footer .link-widget {
+      padding-left: 0;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .wpo-site-footer .link-widget {
+      max-width: 350px;
+    }
+  }
+  
+  .wpo-site-footer .link-widget ul li {
+    position: relative;
+  }
+  
+  .wpo-site-footer .link-widget ul li a {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Poppins";
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    font-size: 17px;
+  }
+  
+  .wpo-site-footer .link-widget ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .wpo-site-footer .link-widget ul li + li {
+    padding-top: 15px;
+  }
+  
+  .wpo-site-footer .contact-ft {
+    margin-top: 20px;
+  }
+  
+  .wpo-site-footer .contact-ft ul li {
+    padding-bottom: 15px;
+    position: relative;
+    padding-left: 35px;
+    color: #e5e3e3;
+    font-size: 17px;
+  }
+  
+  .wpo-site-footer .contact-ft ul li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .wpo-site-footer .contact-ft ul li .fi:before {
+    font-size: 20px;
+    margin-right: 15px;
+  }
