@@ -30,7 +30,13 @@ const Form = () => {
         className: 'errorMessage'
     }));
     const changeHandler = e => {
+        const { name, value } = e.target;
         setForms({ ...forms, [e.target.name]: e.target.value })
+        // if (name === 'phoneNo' && value.length > 10) {
+        //     validator.message('phoneNo', 'Phone number should not exceed 10 digits', 'max:10');
+        // } else {
+        //     validator.showMessages();
+        // }
         if (validator.allValid()) {
             validator.hideMessages();
         } else {
@@ -107,10 +113,27 @@ const Form = () => {
                     toast.error(res.data.message);
                 }
             } catch (error) {
-                console.log(error);
-                toast.error(
+                console.log(error.response.data.errors[0].msg);
+                // console.log(res.data);
+                if(error.response.data.errors[0].param==="phoneNo")
+                {
+                    toast.error(
+                        "Phone Number Must be of 10 digits only!!"
+                    );
+                }
+                else if(error.response.data.errors[0].param==="aadharno")
+                {
+                    toast.error(
+                        "Aadhar Number is of 12 digits only!!"
+                    );
+                }
+                else{
+ toast.error(
                     "Error occurred while submitting. Please try again."
                 );
+                }
+                
+               
             } finally {
                 setLoading(false);
                 validator.hideMessages();
